@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">智慧城市</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">全部服务</string>
+    <string name="title_Partyone">智慧党建</string>
+    <string name="title_notifications">新闻</string>
+    <string name="title_personal">个人中心</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_mhome">首页</string>
+    <string name="title_guahao">预约挂号</string>
+    <string name="title_wenzheng">在线问诊</string>
+    <string name="title_zhixun">资讯</string>
+    <string name="title_my">我的</string>
+
+    <string name="title_whome">首页</string>
+    <string name="title_worder">订单</string>
+    <string name="title_wmy">我的</string>
+
+    <string name="title_job">找工作</string>
+    <string name="title_record">投递记录</string>
+    <string name="title_resume">个人简历</string>
+
+</resources>

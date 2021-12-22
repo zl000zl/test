@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E1DFDF">
+
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="#fff">
+        <ImageView
+            android:id="@+id/image_stu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_toRightOf="@id/image_stu"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/tv_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#000"/>
+            <ImageView
+                android:id="@+id/iv_dianzhan"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:src="@drawable/dz"
+                android:layout_toRightOf="@id/image_stu"
+                android:layout_alignBottom="@id/image_stu"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/tv_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:layout_toRightOf="@id/iv_dianzhan"
+                android:layout_alignBottom="@id/iv_dianzhan"
+                android:layout_marginLeft="3dp"
+                android:textColor="#D3000000"/>
+            <TextView
+                android:id="@+id/tv_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="textView"
+                android:layout_alignBottom="@id/iv_dianzhan"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"/>
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tv_data"
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+        </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.newtext.Life.Activity.UserActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardCornerRadius="15dp"
+        android:background="#000">
+
+        <LinearLayout
+            android:id="@+id/user_llt"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#ABD8FB">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:scaleType="fitXY"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/jiahao" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增用户"
+            android:textColor="#000"
+            android:textSize="18sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/user_click"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="户号分组："
+            android:textColor="#000"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/user_huhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <Spinner
+            android:layout_gravity="center_vertical"
+            android:id="@+id/user_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"/>
+
+        <Button
+            android:layout_marginLeft="40dp"
+            android:id="@+id/user_go"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="确定"
+            android:background="@drawable/shape3"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:padding="10dp"
+        android:id="@+id/tv_type"
+        android:background="#AFF6B2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_huhao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/textView33"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="缴费类别："
+               android:textColor="#000"
+               android:textSize="16sp"/>
+
+           <TextView
+               android:layout_marginLeft="5dp"
+               android:id="@+id/type_title"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="TextView"
+               android:textSize="16sp"/>
+           <Spinner
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/user_type"
+               android:spinnerMode="dropdown"/>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="户号："
+                android:textColor="#000"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/huhao_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:hint="请输入户号"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

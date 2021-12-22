@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_job"
+        android:icon="@drawable/job"
+        android:title="@string/title_job"/>
+
+    <item
+        android:id="@+id/navigation_record"
+        android:icon="@drawable/toudi"
+        android:title="@string/title_record"/>
+    <item
+        android:id="@+id/navigation_resume"
+        android:icon="@drawable/centre"
+        android:title="@string/title_resume"/>
+</menu>

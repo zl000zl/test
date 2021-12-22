@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.newtext">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logn8"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Movie.My.Dd_list" />
+        <activity android:name=".Movie.Activity.News_xingq" />
+        <activity android:name=".Movie.Activity.Movie_news" />
+        <activity android:name=".Movie.Activity.Film_play" />
+        <activity android:name=".Movie.Activity.Trailers" />
+        <activity android:name=".Movie.Activity.Recommend" />
+        <activity android:name=".Movie.Activity.Cinema_xingq" />
+        <activity android:name=".Movie.Activity.Ticker_order" />
+        <activity android:name=".Movie.Activity.SeatActivity" />
+        <activity android:name=".Movie.Activity.RondaActivity" />
+        <activity android:name=".Movie.Activity.Buy_ticket" />
+        <activity android:name=".Movie.Activity.User_filmcom" />
+        <activity android:name=".Movie.Activity.Film_xingqing" />
+        <activity android:name=".Movie.Activity.Search_activity" />
+        <activity android:name=".WaiMai.Activity.My_comment" />
+        <activity android:name=".WaiMai.Activity.ShouhuoActivity" />
+        <activity android:name=".WaiMai.Activity.Refund" />
+        <activity android:name=".WaiMai.Activity.Shop_pingjia" />
+        <activity android:name=".Movie.MovieActivity" />
+        <activity android:name=".WaiMai.Activity.Sure_order" />
+        <activity android:name=".WaiMai.Activity.Order_sure" />
+        <activity android:name=".WaiMai.Activity.Good_food" />
+        <activity android:name=".WaiMai.Activity.Waimai_xinq" />
+        <activity android:name=".Life.Activity.DianfeiActivity" />
+        <activity android:name=".SmartBus.Activity.PayFessActivity" />
+        <activity android:name=".Life.Activity.UserActivity" />
+        <activity android:name=".Life.LifeActivity" />
+        <activity android:name=".Job.Activity.Toudi_resume" />
+        <activity android:name=".Job.Activity.Job_xiangqing" />
+        <activity android:name=".Traffic.Activity.ParticularsActivity" />
+        <activity android:name=".Traffic.Activity.ChaxunActivity" />
+        <activity android:name=".Job.JobActivity" />
+        <activity android:name=".SmartBus.Activity.TrueActivity" />
+        <activity android:name=".SmartBus.Activity.MessageActivity" />
+        <activity android:name=".SmartBus.Activity.DetailsActivity" />
+        <activity android:name=".SmartBus.Activity.BusActivity" />
+        <activity android:name=".Hospital.Activity.HistoryActivity" />
+        <activity android:name=".Hospital.Activity.QuerenActivity" />
+        <activity android:name=".Hospital.Activity.XiugaiActivity" />
+        <activity android:name=".Hospital.Activity.AddActivity" />
+        <activity android:name=".Hospital.Activity.JiuzhengActivity" />
+        <activity android:name=".Hospital.Activity.YuyueActivity" />
+        <activity android:name=".Hospital.Activity.XqActivity" />
+        <activity android:name=".Hospital.HospitalActivity" />
+        <activity android:name=".Room.XiangqingActivity" />
+        <activity android:name=".Room.RoomActivity" />
+        <activity android:name=".WaiMai.TakeoutActivity" />
+        <activity android:name=".Traffic.Activity.TrafficActivity" />
+
+        <activity android:name=".ui.Party.Dynamic.PartyActivity5" />
+        <activity android:name=".ui.Party.Dynamic.PartyActivity4" />
+        <activity android:name=".ui.Party.Dynamic.PartyActivity3" />
+        <activity android:name=".ui.Party.Dynamic.PartyActivity2" />
+        <activity android:name=".ui.Party.Dynamic.PartyActivity1" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.home.SearchView.SearchViewActivity" />
+        <activity android:name=".Allservice.Subway.Subway_Path.Map_station" />
+        <activity android:name=".Allservice.Subway.Subway_Path.BjStation" />
+        <activity android:name=".Allservice.Subway.SubwayActivity" />
+        <activity android:name=".NewClass.CommentActivity" />
+        <activity android:name=".Allservice.PackThree" />
+        <activity android:name=".Allservice.PacktwoActivity" />
+        <activity android:name=".item_Adapter.item_Pkrecord" />
+        <activity android:name=".Allservice.PkrecordActivity" />
+        <activity android:name=".ui.home.Slideshow.ThreeActivity" />
+        <activity android:name=".ui.home.Slideshow.TwoActivity" />
+        <activity android:name=".ui.home.Slideshow.SlideshowActivity" />
+        <activity android:name=".Allservice.ParkActivity" />
+        <activity android:name=".ViewPager.IpActivity" />
+        <activity android:name=".Personal.Activity.FeedbackActivity" />
+        <activity android:name=".Personal.Activity.PassActivity" />
+        <activity android:name=".Personal.Activity2.PhotoActivity" />
+        <activity android:name=".Personal.Activity.Personal1Activity" />
+        <activity android:name=".NewClass.NotificActivity" />
+        <activity android:name=".NewClass.Todaynews" />
+        <activity android:name=".NewClass.NewclassActivity" />
+        <activity android:name=".ui.Party.YiActivity" />
+        <activity android:name=".Pagerlayout5.PortActivity" />
+        <activity android:name=".FirstStart.FirstActivity" />
+        <activity android:name=".ViewPager.YindaoActivity" />
+        <activity
+            android:name=".Pagerlayout5.EnterActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

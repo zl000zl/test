@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newtext.Allservice.ParkActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_pack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/btn_inquire"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="查看停车记录"
+                android:textColor="#fff"
+                android:background="@drawable/pack"
+                android:layout_alignParentBottom="true"/>
+            <Button
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/btn_much"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:text="查看更多"
+                android:textColor="#fff"
+                android:background="@drawable/pack"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

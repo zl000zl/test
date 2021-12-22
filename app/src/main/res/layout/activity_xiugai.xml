@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newtext.Hospital.Activity.XiugaiActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#E8E4E4">
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/xg_one"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="专家号"
+            android:textColor="#fff"
+            android:background="@drawable/shape3"/>
+
+        <Button
+
+            android:layout_marginLeft="10dp"
+            android:id="@+id/xg_two"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="普通号"
+            android:textColor="#fff"
+            android:background="@drawable/shape3"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/xiu_recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

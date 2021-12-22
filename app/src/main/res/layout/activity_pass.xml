@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newtext.Personal.Activity.PassActivity">
+
+
+    <LinearLayout
+        android:id="@+id/pass1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/mima" />
+
+        <EditText
+            android:layout_marginLeft="8dp"
+            android:id="@+id/et_oldpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入原始密码"
+            android:background="@null"/>
+    </LinearLayout>
+        <TextView
+            android:id="@+id/tv_linepass"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/pass1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/rv_line2"/>
+    <LinearLayout
+        android:id="@+id/pass2"
+        android:layout_below="@id/tv_linepass"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/mima" />
+
+        <EditText
+            android:layout_marginLeft="8dp"
+            android:id="@+id/et_newpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入新密码"
+            android:background="@null"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvlinepass1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/pass2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/rv_line2"/>
+
+
+    <View
+        android:layout_below="@id/tvlinepass1"
+        android:id="@+id/divider8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/divider8"
+        android:id="@+id/btn_enterpass"
+        android:layout_width="250dp"
+        android:textColor="#fff"
+        android:layout_height="35dp"
+        android:text="确定"
+        android:background="@drawable/shape2"/>
+</RelativeLayout>

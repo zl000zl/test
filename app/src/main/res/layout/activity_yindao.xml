@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:id="@+id/networkBtn"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:text="IP网络设置"
+        android:background="@drawable/shape1"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="进入主页"
+        android:textColor="#fff"
+        android:layout_alignBottom="@id/circle"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/enterBtn"
+        android:background="@drawable/shape1"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/circle"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_whome">
+
+    <fragment
+        android:id="@+id/navigation_whome"
+        android:name="com.example.newtext.WaiMai.WhomeFragment"
+        android:label="@string/title_whome"
+        tools:layout="@layout/fragment_whome" />
+
+    <fragment
+        android:id="@+id/navigation_worder"
+        android:name="com.example.newtext.WaiMai.WorderFragment"
+        android:label="@string/title_worder"
+        tools:layout="@layout/fragment_worder" />
+    <fragment
+        android:id="@+id/navigation_wmy"
+        android:name="com.example.newtext.WaiMai.WmyFragment"
+        android:label="@string/title_wmy"
+        tools:layout="@layout/fragment_wmy"/>
+
+</navigation>

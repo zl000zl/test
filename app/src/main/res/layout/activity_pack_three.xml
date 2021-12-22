@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EDEBEB">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        app:cardCornerRadius="20dp">
+
+
+        <RelativeLayout
+            android:padding="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#445DE6"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_km"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="TextView"
+                    android:textColor="#445DE6"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layerType="software"
+                android:background="@drawable/dottedline" />
+            <TextView
+                android:id="@+id/tv_show3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="对外开放"
+                android:textColor="#000"
+                android:layout_below="@id/textView9"
+                android:textSize="13sp"/>
+            <ImageView
+                android:id="@+id/iv_line"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tv_show3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xianlu"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/iv_line"
+                android:layout_below="@+id/tv_show3"
+                android:id="@+id/tv_address2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#79070606"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_below="@+id/iv_line"
+                android:id="@+id/tv_show5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line"/>
+            <TextView
+                android:id="@+id/tv_message2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车位信息"
+                android:layout_below="@+id/tv_show5"/>
+
+
+            <LinearLayout
+                android:id="@+id/llt_pack"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tv_message2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="60dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="停车费"
+                    android:textColor="#000"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/tv_good1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="剩余车位"
+                    android:textColor="#000"
+                    android:layout_weight="0.3"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_pirce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="textView"
+                android:layout_below="@+id/llt_pack"
+                android:layout_marginLeft="50dp"
+                android:textSize="18sp"
+                android:textColor="#FFC107"/>
+                <TextView
+                    android:id="@+id/tv_pack1"
+                    android:layout_below="@id/llt_pack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="textView"
+                    android:textSize="18sp"
+                    android:textColor="#3352FD"
+                    android:layout_marginRight="30dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:padding="5dp"
+                android:layout_below="@+id/tv_pack1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5771FF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收费参考"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="每小时5元，最高30一天"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

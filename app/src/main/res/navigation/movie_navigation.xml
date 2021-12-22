@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movie_navigation"
+    app:startDestination="@id/movie_home">
+
+    <fragment
+        android:id="@+id/movie_home"
+        android:name="com.example.newtext.Movie.Movie_home"
+        android:label="@string/title_mhome"
+        tools:layout="@layout/fragment_movie_home" />
+
+    <fragment
+        android:id="@+id/movie_cinema"
+        android:name="com.example.newtext.Movie.Movie_cinema"
+        android:label="影院"
+        tools:layout="@layout/fragment_movie_cinema" />
+    <fragment
+        android:id="@+id/movie_film"
+        android:name="com.example.newtext.Movie.Movie_film"
+        android:label="影片"
+        tools:layout="@layout/fragment_movie_film"/>
+
+
+    <fragment
+        android:id="@+id/movie_me"
+        android:name="com.example.newtext.Movie.Movie_me"
+        android:label="@string/title_my"
+        tools:layout="@layout/fragment_movie_me" />
+</navigation>

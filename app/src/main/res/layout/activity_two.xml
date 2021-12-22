@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newtext.NewClass.Todaynews"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="15dp"
+        android:id="@+id/tv_title3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#0C0000"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#DEEEFB">
+
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/iv_image3"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                tools:srcCompat="@tools:sample/avatars"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/tv_news3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newtext.Movie.Movie_cinema">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/addres" />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/dingwei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <SearchView
+            android:id="@+id/pian_search"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/search_style1"
+            android:iconifiedByDefault="false" />
+
+
+        <TextView
+
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="影院列表"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_margin="5dp"
+            android:id="@+id/pian_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:visibility="gone"
+            android:gravity="center"
+            android:id="@+id/pian_visi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="未搜索到该影院！！！"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

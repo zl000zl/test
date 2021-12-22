@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/movie_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"/>
+
+    <item
+        android:id="@+id/movie_cinema"
+        android:icon="@drawable/yingpian"
+        android:title="影院"/>
+    <item
+        android:id="@+id/movie_film"
+        android:icon="@drawable/yingyuan"
+        android:title="影片"/>
+
+    <item
+        android:id="@+id/movie_me"
+        android:icon="@drawable/geren"
+        android:title="@string/title_personal"/>
+
+
+</menu>

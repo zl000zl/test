@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_mhome">
+
+    <fragment
+        android:id="@+id/navigation_mhome"
+        android:name="com.example.newtext.Hospital.mHomeFragment"
+        android:label="@string/title_mhome"
+        tools:layout="@layout/fragment_m_home" />
+
+    <fragment
+        android:id="@+id/navigation_guahao"
+        android:name="com.example.newtext.Hospital.GuahaoFragment"
+        android:label="@string/title_guahao"
+        tools:layout="@layout/fragment_guahao" />
+    <fragment
+        android:id="@+id/navigation_wenzheng"
+        android:name="com.example.newtext.Hospital.WenzhengFragment"
+        android:label="@string/title_wenzheng"
+        tools:layout="@layout/fragment_wenzheng"/>
+
+
+    <fragment
+        android:id="@+id/navigation_zhixun"
+        android:name="com.example.newtext.Hospital.ZhixunFragment"
+        android:label="@string/title_zhixun"
+        tools:layout="@layout/fragment_zhixun" />
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.example.newtext.Hospital.MyFragment"
+        android:label="@string/title_my"
+        tools:layout="@layout/fragment_my" />
+</navigation>

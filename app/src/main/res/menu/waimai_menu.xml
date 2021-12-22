@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_whome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_whome"/>
+
+    <item
+        android:id="@+id/navigation_worder"
+        android:icon="@drawable/waimaiorder"
+        android:title="@string/title_worder"/>
+    <item
+        android:id="@+id/navigation_wmy"
+        android:icon="@drawable/waimaimy"
+        android:title="@string/title_wmy"/>
+</menu>
